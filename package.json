@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/loops/whileLoops.js"
+    "dev": "nodemon src/functions/functions.js"
   },
   "keywords": [],
   "author": "",
