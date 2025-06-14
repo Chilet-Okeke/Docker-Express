@@ -16,11 +16,20 @@ function sumTotal(arr) {
 const chilet = sumTotal(chiletSpend);
 const ifeoma = sumTotal(ifeomaSpend)
 const gbomkpa = sumTotal(gbomkpaSpend)
+const random = sumTotal([23,345,664,664,900,9000])
 
-console.log({
-    chiletTotal: chilet,
-    ifeomaTotal: ifeoma,
-    gbomkpaTotal: gbomkpa
-});
+const table = {
+    chiletSpend: chilet,
+    ifeomaSpend: ifeoma,
+    gbomkpaSpend: gbomkpa,
+    randomSpend: random
+}
+
+// console.log({
+//     chiletTotal: chilet,
+//     ifeomaTotal: ifeoma,
+//     gbomkpaTotal: gbomkpa
+// });
 
 
+console.log(table);
