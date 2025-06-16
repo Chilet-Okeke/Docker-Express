@@ -8,6 +8,12 @@ function sumTotal(arr) {
     for (i = 0; i < arr.length; i++) {
         total += arr[i]
     }
+    if (total > 250) {
+        console.log("You've exceeded your 250 budget with a total spend of", total);
+        return total
+        
+    } console.log("Your purchase is within the 250 budget with a total spend of", total);
+    
     {
         return total
     }
