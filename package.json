@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/functions/funTest.js"
+    "dev": "nodemon src/functions/callbackFunc.js"
   },
   "keywords": [],
   "author": "",
