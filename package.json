@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/arrayMethods/forEach/foreach.js"
+    "dev": "nodemon src/arrayMethods/map/map.js"
   },
   "keywords": [],
   "author": "",
